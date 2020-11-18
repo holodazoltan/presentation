@@ -1,19 +1,17 @@
-java8 functional programming (higher order functions, functional interface, lambdas, method reference)
+java8 functional programming
 -----
 
 # Functional programming requirement
 
 ## Functions as first class objects
-Create an "instance" of a function, as have a variable reference that function instance
-In Java, methods are not, Lambda expressions are first class object
+Create an "instance" of a function, as have a variable reference that function instance. In Java, methods are not, Lambda expressions are first class object.
 
 ## Pure functions
-The execution of the function has no side effects
-The return value of the function depends only on the input parameters passed to the function
+- The execution of the function has no side effects.
+- The return value of the function depends only on the input parameters passed to the function
 
 ## Higher order functions
-The function takes one or more functions as parameters or the function returns another function as result
-In Java, the closest we can get to a higher order function is a function (method) that takes one or more lambda expressions as parameters, and returns another lambda expression
+The function takes one or more functions as parameters or the function returns another function as result. In Java, the closest we can get to a higher order function is a function (method) that takes one or more lambda expressions as parameters, and returns another lambda expression
 
 ## Pure functional programming has a set of rules to follow too:
 - No state: a function cannot reference any state outside of the function (member variables)
@@ -67,13 +65,14 @@ stateOwner.addStateListener(
 (argument part) -> body part
 ```
 
+parameters:
 ```java
 () -> {System.out.println("Zero parameter lambda");}
-(param) -> {System.out.println("One parameter: " + param);} || param -> System.out.println("One parameter w/o (): " + param);
+(param) -> {System.out.println("One parameter: " + param);} || param -> System.out.println("parameter w/o (): " + param);
 (param1, param2, ...) -> System.out.println("Multiple parameters: " + param1 + ", " + param2);
 ```
 
-## Functional Interfaces
+# Functional Interfaces
 an interface that contains only a single abstract (unimplemented) method, contains any default and static methods
 
 ```java
@@ -85,7 +84,7 @@ public interface Runnable {
 
 lambda use the `invokedynamic` instruction, to defer the translation strategy at runtime.
 
-Built-in Functional Interfaces
+## Built-in Functional Interfaces
 
 ### java.util.function.Function
 
@@ -290,12 +289,3 @@ Comparator<Student> ageComparator = Comparator.comparing(Student::getAge);
 TreeMap<Student, String> myTreeMap = new TreeMap<>(ageComparator);
 ```
 
-### Foreach
-```java
-ArrayList<Integer> numbers = new ArrayList<Integer>();
-numbers.add(5);
-numbers.add(9);
-numbers.add(8);
-numbers.add(1);
-numbers.forEach( (n) -> { System.out.println(n); } );
-```

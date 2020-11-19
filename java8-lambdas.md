@@ -61,11 +61,12 @@ stateOwner.addStateListener(
 );
 ```
 
+lambda syntax
 ```java
 (argument part) -> body part
 ```
 
-parameters:
+parameters
 ```java
 () -> {System.out.println("Zero parameter lambda");}
 (param) -> {System.out.println("One parameter: " + param);} || param -> System.out.println("parameter w/o (): " + param);
@@ -132,23 +133,33 @@ Consumer<Integer> consumer = (value) -> System.out.println(value);
 ```
 
 ## Method References as Lambdas
-`Function<String, Integer> strToLength = str -> str.length();`
-`Function<String, Integer> strToLength = String::length;`
+```java
+Function<String, Integer> strToLength = str -> str.length();
+Function<String, Integer> strToLength = String::length;
+```
 
 ### Static method
-`Function<List<Integer>, Integer> maxFn = Collections::max`
+```java
+Function<List<Integer>, Integer> maxFn = Collections::max;
+```
 
 ### Parameter method reference
 interface and method signature (params and return value) should matched
-`Finder finder = String::indexOf;`
-`Finder finder = (s1, s2) -> s1.indexOf(s2);`
+```java
+Finder finder = String::indexOf;
+Finder finder = (s1, s2) -> s1.indexOf(s2);
+```
 
 ### Instance method references
 interface and method signature (params and return value) should matched
-`Deserializer des = stringConverter::convertToInt;`
+```java
+Deserializer des = stringConverter::convertToInt;
+```
 
 ### constructor
-`Factory factory = String::new;`
+```java
+Factory factory = String::new;
+```
 
 ## Lambda examples
 
@@ -187,7 +198,6 @@ list.replaceAll(unaryOpt);
 private static String modify(String s){
   return s + "concat";
 }
-
 ```
 
 ### map.getOrDefault

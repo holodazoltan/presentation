@@ -95,10 +95,26 @@ public interface Function<T,R> {
 }
 ```
 
+```java
+// References a method that:
+// - Has one input parameter (T)
+// - Returns a value (R) (R and T can be identifical)
+// 
+// (T1) -> return (T2);
+Function<String, Integer> countVocals =
+                (str) -> str.replaceAll("[^aeiouAEIOU]","").length();
+```
+
 ### java.util.function.Predicate
-takes a single value as parameter, and returns true or falsea
+takes a single value as parameter, and returns true or false
 
 ```java
+// References a method that:
+// - Has one input parameter (T)
+// - Returns a Boolean
+// 
+// (T) -> return Boolean;
+Predicate<String> containsComma = (str) -> str.contains(",");
 Predicate<String> namesStartingWithS = name -> name.startsWith("s");
 ```
 
@@ -106,6 +122,11 @@ Predicate<String> namesStartingWithS = name -> name.startsWith("s");
 takes a single parameter and returns a parameter of the same type
 
 ```java
+// References a method that:
+// - Has one input parameter (T)
+// - Returns the same type (T)
+//
+// (T) -> return (T);
 UnaryOperator<Person> unaryOperator = 
         (person) -> { person.name = "New Name"; return person; };
 ```
@@ -114,6 +135,11 @@ UnaryOperator<Person> unaryOperator =
 takes two parameters and returns a single value
 
 ```java
+// References a method that:
+// - Has two input parameters (T,T)
+// - Returns the same type (T)
+//
+// (T,T) -> return (T);
 BinaryOperator<MyValue> binaryOperator =
         (value1, value2) -> { value1.add(value2); return value1; };
 ```
@@ -122,6 +148,11 @@ BinaryOperator<MyValue> binaryOperator =
 takes no parameter and returns a single value.
 
 ```java
+// References a method that:
+// - Has no input parameters
+// - Returns a value (R)
+//
+// () -> R
 Supplier<Integer> supplier = () -> new Integer((int) (Math.random() * 1000D));
 ```
 
@@ -129,6 +160,11 @@ Supplier<Integer> supplier = () -> new Integer((int) (Math.random() * 1000D));
 take a parameter without returning any value
 
 ```java
+// References a method that:
+// - Has one input parameter
+// - Returns void
+//
+// R -> void
 Consumer<Integer> consumer = (value) -> System.out.println(value);
 ```
 

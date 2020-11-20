@@ -101,8 +101,7 @@ public interface Function<T,R> {
 // - Returns a value (R) (R and T can be identifical)
 // 
 // (T1) -> return (T2);
-Function<String, Integer> countVocals =
-                (str) -> str.replaceAll("[^aeiouAEIOU]","").length();
+Function<String, Integer> countVocals = (str) -> str.replaceAll("[^aeiouAEIOU]","").length();
 ```
 
 ### java.util.function.Predicate
@@ -127,8 +126,7 @@ takes a single parameter and returns a parameter of the same type
 // - Returns the same type (T)
 //
 // (T) -> return (T);
-UnaryOperator<Person> unaryOperator = 
-        (person) -> { person.name = "New Name"; return person; };
+UnaryOperator<Person> unaryOperator = (person) -> { person.name = "New Name"; return person; };
 ```
 
 ### java.util.function.BinaryOperator<T>
@@ -140,8 +138,7 @@ takes two parameters and returns a single value
 // - Returns the same type (T)
 //
 // (T,T) -> return (T);
-BinaryOperator<MyValue> binaryOperator =
-        (value1, value2) -> { value1.add(value2); return value1; };
+BinaryOperator<MyValue> binaryOperator = (value1, value2) -> { value1.add(value2); return value1; };
 ```
 
 ### java.util.function.Supplier<T>

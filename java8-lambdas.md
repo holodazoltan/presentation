@@ -335,3 +335,37 @@ Comparator<Student> ageComparator = Comparator.comparing(Student::getAge);
 TreeMap<Student, String> myTreeMap = new TreeMap<>(ageComparator);
 ```
 
+## Measures
+
+### 1x sort and reverse sort on small(10) list measured by JMH (Java Microbenchmark Harness) 
+```
+Benchmark                                                Mode  Cnt    Score    Error   Units
+ComparatorBenchmark.testChainComparatorAnonymous        thrpt   10  150.616 ±  8.893  ops/ms
+ComparatorBenchmark.testChainComparatorLambda           thrpt   10  127.670 ± 27.781  ops/ms
+ComparatorBenchmark.testChainComparatorMethodReference  thrpt   10  145.210 ±  9.507  ops/ms
+ComparatorBenchmark.testComparatorAnonymous             thrpt   10  152.539 ± 15.955  ops/ms
+ComparatorBenchmark.testComparatorLambda                thrpt   10  156.363 ±  7.074  ops/ms
+ComparatorBenchmark.testComparatorMethodReference       thrpt   10  152.427 ± 11.050  ops/ms
+```
+
+### 10x sort and reverse sort on small(10) list measured by JMH (Java Microbenchmark Harness)
+```
+Benchmark                                                Mode  Cnt    Score    Error   Units
+ComparatorBenchmark.testChainComparatorAnonymous        thrpt   10  116.022 ± 11.340  ops/ms
+ComparatorBenchmark.testChainComparatorLambda           thrpt   10  117.503 ± 12.559  ops/ms
+ComparatorBenchmark.testChainComparatorMethodReference  thrpt   10  115.347 ± 13.040  ops/ms
+ComparatorBenchmark.testComparatorAnonymous             thrpt   10  125.503 ± 11.591  ops/ms
+ComparatorBenchmark.testComparatorLambda                thrpt   10  122.234 ± 10.600  ops/ms
+ComparatorBenchmark.testComparatorMethodReference       thrpt   10  121.005 ± 15.501  ops/ms
+```
+
+### 100x sort and reverse sort on small(10) list measured by JMH (Java Microbenchmark Harness)
+```
+ComparatorBenchmark.testChainComparatorAnonymous        thrpt   10  43.027 ± 3.357  ops/ms
+ComparatorBenchmark.testChainComparatorLambda           thrpt   10  46.858 ± 5.307  ops/ms
+ComparatorBenchmark.testChainComparatorMethodReference  thrpt   10  43.598 ± 6.614  ops/ms
+ComparatorBenchmark.testComparatorAnonymous             thrpt   10  55.967 ± 3.338  ops/ms
+ComparatorBenchmark.testComparatorLambda                thrpt   10  56.036 ± 4.463  ops/ms
+ComparatorBenchmark.testComparatorMethodReference       thrpt   10  51.517 ± 7.833  ops/ms
+```
+

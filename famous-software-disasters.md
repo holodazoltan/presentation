@@ -70,7 +70,7 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Smart ship testbed (1997)
 * **disaster**: The ship was equipped with a network of 27 dual 200 MHz Pentium Pro-based machines running Windows NT 4.0 communicating over fiber-optic cable with a Pentium Pro-based server. This network was responsible for running the integrated control center on the bridge, monitoring condition assessment, damage control, machinery control and fuel control, monitoring the engines and navigating the ship. This system was predicted to save $2.8 million per year by reducing the ship's complement by 10%. While on maneuvers off the coast of Cape Charles, Virginia, an error brought down all the machines on the network, causing the ship's propulsion system to fail. Yorktown was "dead in the water" for just 2 hours and 45 minutes.
-* **cause**: a crew member entered a zero into a database field causing an attempted division by zero in the ship's Remote Data Base Manager, resulting in a buffer overflow.
+* **cause**: a crew member entered a zero into a database field causing an attempted division by zero in the ship's Remote Data Base Manager, resulting in a buffer overflow. [more](https://www.wikipage.com/en/USS_Yorktown_(CG-48))
 * **cost**: ?
 
 # Mars Climate Crasher (1998)
@@ -95,7 +95,7 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Heathrow Terminal 5 Opening (2008)
 * **disaster**: Over the following 10 days some 42,000 bags failed to travel with their owners, and over 500 flights were cancelled.
-* **cause**:  It is thought that “real life” scenarios such as removing a bag from the system manually when a passenger had left an important item in their luggage, had caused the entire system to become confused and shut down.
+* **cause**:  It is thought that “real life” scenarios such as removing a bag from the system manually when a passenger had left an important item in their luggage, had caused the entire system to become confused and shut down. [more](https://www.independent.co.uk/news/uk/home-news/disastrous-opening-day-terminal-5-801376.html)
 * **cost**: ?
 
 # Bitcoin Hack, Mt. Gox (2011)
@@ -105,8 +105,13 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Knight stock market failure (2012)
 * **disaster**: One of the biggest American market makers for stocks struggled to stay afloat after a software bug triggered a big loss in just 30 minutes. The firm’s shares lost 75 percent in two days after the faulty software flooded the market with unintended trades.
-* **cause**: Knight’s trading algorithms reportedly started pushing erratic trades through on nearly 150 different stocks, sending them into spasms.
+* **cause**: Knight’s trading algorithms reportedly started pushing erratic trades through on nearly 150 different stocks, sending them into spasms. [more](https://www.wikipage.com/en/Knight_Capital_Group)
 * **cost**: $440 million
+
+# Uber’s self-driving car crash (2018)
+* **disaster**: Self-driving hit a pedestrian 
+* **cause**: The car’s sensors did, in fact, detect the pedestrian, but decided that she was a “false positive” — as benign as an empty soda bottle in the road — and kept driving. [more](https://arstechnica.com/tech-policy/2018/05/report-software-bug-led-to-death-in-ubers-self-driving-crash/)
+* **cost**: 1 men dead
 
 # Links
 There are plenty other examples in the world 

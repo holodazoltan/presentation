@@ -8,10 +8,10 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 * **cause**: A programmer incorrectly transcribed a handwritten formula into computer code, missing a single superscript bar. Without the smoothing function indicated by the bar, the software treated normal variations of velocity as if they were serious, causing faulty corrections that sent the rocket off course. [more](http://en.wikipedia.org/wiki/Mariner_1)
 * **cost**: $18.5 million
 
-# Hartford Coliseum Collapse (1978)
-* **disaster**: Just hours after thousands of fans had left the Hartford Coliseum, the steel-latticed roof collapsed under the weight of wet snow.
-* **cause**: The programmer of the CAD software used to design the coliseum incorrectly assumed the steel roof supports would only face pure compression.  But when one of the supports unexpectedly buckled from the snow, it set off a chain reaction that brought down the other roof sections like dominoes. [more](https://eng-resources.uncc.edu/failurecasestudies/building-failure-cases/hartford-civic-center/)
-* **cost**: $70 million, plus another $20 million damage to the local economy
+# NORAD Missile Attack (1980)
+* **disaster**: On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place.
+* **cause**: The problem was caused by a faulty circuit, a possibility the reporting software hadn’t taken into account. [more](https://www.wikipage.com/en/North_American_Aerospace_Defense_Command#/Cold_War_and_false_alarms)
+* **cost**: nearly all of humanity
 
 # CIA Gives the Soviets Gas (1982)
 * **disaster**: Control software went haywire and produced intense pressure in the Trans-Siberian gas pipeline, resulting in the largest man-made non-nuclear explosion in Earth’s history. The explosion was so big it was seen from space.
@@ -23,10 +23,20 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 * **cause**: A bug in the Soviet software failed to filter out false missile detections caused by sunlight reflecting off cloud-tops. [more](https://www.wired.com/2007/09/dayintech-0926-2/)
 * **cost**: nearly all of humanity
 
+# Undetected Hole In The Ozone Layer (1985)
+* **disaster**: The hole in the ozone layer over Antarctica remained undetected for a long period of time. The project had been launched in 1978, but it wasn’t until 1985 that the hole was discovered, and not by NASA. NASA didn’t find the error until they reviewed their data, which indeed showed that there was a big hole in the ozone layer.
+* **cause**: The data analysis software used by NASA in its project to map the ozone layer had been designed to ignore values that deviated greatly from expected measurements. [more](https://earthobservatory.nasa.gov/features/RemoteSensingAtmosphere/remote_sensing5.php)
+* **cost**: ?
+
 # Medical Machine Kills (1985)
 * **disaster**: Canada’s Therac-25 radiation therapy machine malfunctioned and delivered lethal radiation doses to patients. 
 * **cause**: Because of a subtle bug called a race condition, a technician could accidentally configure Therac-25 so the electron beam would fire in high-power mode without the proper patient shielding. [more](https://hackaday.com/2015/10/26/killed-by-a-machine-the-therac-25/)
 * **cost**: three people dead, three people critically injured
+
+# The Morris Worm (1988)
+* **disaster**: A program developed by a Cornell University student for what he said was supposed to be a harmless experiment wound up spreading wildly and crashing thousands of computers. It was the first widespread worm attack on the fledgling Internet.
+* **cause**: coding error [more](https://www.wikipage.com/en/Robert_Tappan_Morris#/The_Morris_worm)
+* **cost**: $100 million
 
 # AT&T Lines Go Dead (1990)
 * **disaster**: A single switch at one of AT&T’s 114 switching centers suffered a minor mechanical problem and shut down the center. When the center came back up, it sent a message to other switching centers, which in turn caused them to shut down and brought down the entire AT&T network for 9 hours.
@@ -43,10 +53,25 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 * **cause**: The divider in the Pentium floating point unit had a flawed division table, missing about five of a thousand entries and resulting in these rounding errors. [more](http://www.willamette.edu/~mjaneba/pentprob.html)
 * **cost**: $475 million, corporate credibility
 
+# JAS 39 Gripen crash (1993)
+* **disaster**: Swedish JAS 39 Gripen fighter aircraft crashed in Sweden.
+* **cause**: The problem was later identified as the same software malfunction in the flight control system as the one in the crash in 1989 and was corrected as late as 1995. [more](https://www.wikipage.com/en/Accidents_and_incidents_involving_the_JAS_39_Gripen)
+* **cost**: ?
+
+# Scotland RAF Chinook crash (1994)
+* **disaster**: Chinook helicopter of the Royal Air Force crashed.
+* **cause**: The engine software as 'positively dangerous' as it could lead to failure of both engines. [more](https://www.wikipage.com/en/1994_Scotland_RAF_Chinook_crash)
+* **cost**: 29 passengers died
+
 # Ariane Rocket Goes Boom (1996)
 * **disaster**: Ariane 5, Europe’s newest unmanned rocket, was intentionally destroyed seconds after launch on its maiden flight. Also destroyed was its cargo of four scientific satellites to study how the Earth’s magnetic field interacts with solar winds.
 * **cause**: Shutdown occurred when the guidance computer tried to convert the sideways rocket velocity from 64-bits to a 16-bit format. The number was too big, and an overflow error resulted. When the guidance system shut down, control passed to an identical redundant unit, which also failed because it was running the same algorithm.  [more](https://around.com/ariane.html)
 * **cost**: $500 million
+
+# Smart ship testbed (1997)
+* **disaster**: The ship was equipped with a network of 27 dual 200 MHz Pentium Pro-based machines running Windows NT 4.0 communicating over fiber-optic cable with a Pentium Pro-based server. This network was responsible for running the integrated control center on the bridge, monitoring condition assessment, damage control, machinery control and fuel control, monitoring the engines and navigating the ship. This system was predicted to save $2.8 million per year by reducing the ship's complement by 10%. While on maneuvers off the coast of Cape Charles, Virginia, an error brought down all the machines on the network, causing the ship's propulsion system to fail. Yorktown was "dead in the water" for just 2 hours and 45 minutes.
+* **cause**: a crew member entered a zero into a database field causing an attempted division by zero in the ship's Remote Data Base Manager, resulting in a buffer overflow.
+* **cost**: ?
 
 # Mars Climate Crasher (1998)
 * **disaster**: After a 286-day journey from Earth, the Mars Climate Orbiter fired its engines to push into orbit around Mars.  The engines fired, but the spacecraft fell too far into the planet’s atmosphere, likely causing it to crash on Mars.
@@ -62,4 +87,28 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 * **disaster**: One man’s disaster is another man’s fortune, as demonstrated by the infamous Y2K bug. Businesses spent billions on programmers to fix a glitch in legacy software. While no significant computer failures occurred, preparation for the Y2K bug had a significant cost and time impact on all industries that use computer technology.
 * **cause**: To save computer storage space, legacy software often stored the year for dates as two digit numbers, such as “99” for 1999.  The software also interpreted “00” to mean 1900 rather than 2000, so when the year 2000 came along, bugs would result. [more](https://money.cnn.com/magazines/fortune/fortune_archive/2000/02/07/272831/index.htm)
 * **cost**: $500 billion
+
+# EDS Child Support System (2004)
+* **disaster**: Business services giant EDS developed a computer system for U.K.’s Child Support Agency (CSA) that accidentally overpaid 1.9 million people, underpaid another 700,000, had £3.5 billion in uncollected child support payments, a backlog of 239,000 cases, 36,000 new cases “stuck” in the system, and still over 500 documented bugs.
+* **cause**: EDS introduced a large, complex IT system to the CSA while trying to simultaneously restructure the agency. [more](https://www.computerworld.com/article/2566427/problems-bedevil-eds-case-management-project-for-u-k--s-child-support-agency.html)
+* **cost**: £539 million
+
+# Heathrow Terminal 5 Opening (2008)
+* **disaster**: Over the following 10 days some 42,000 bags failed to travel with their owners, and over 500 flights were cancelled.
+* **cause**:  It is thought that “real life” scenarios such as removing a bag from the system manually when a passenger had left an important item in their luggage, had caused the entire system to become confused and shut down.
+* **cost**: ?
+
+# Bitcoin Hack, Mt. Gox (2011)
+* **disaster**: Launched in 2010, Japanese bitcoin exchange, Mt. Gox, was the largest in the world. After being hacked in June, 2011, Mt. Gox stated that they’d lost over 850,000 bitcoins.
+* **cause**: It has weak security solution, leaking database for sale. [more](https://www.wikiwand.com/en/Mt._Gox#/Bankruptcy;_stolen_bitcoin_(2014%E2%80%93ongoing))
+* **cost**: $500 million
+
+# Knight stock market failure (2012)
+* **disaster**: One of the biggest American market makers for stocks struggled to stay afloat after a software bug triggered a big loss in just 30 minutes. The firm’s shares lost 75 percent in two days after the faulty software flooded the market with unintended trades.
+* **cause**: Knight’s trading algorithms reportedly started pushing erratic trades through on nearly 150 different stocks, sending them into spasms.
+* **cost**: $440 million
+
+# Links
+There are plenty other examples in the world 
+* [List of software bugs](https://www.wikipage.com/en/List_of_software_bugs)
 

@@ -10,7 +10,7 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # NORAD Missile Attack (1980)
 * **disaster**: On 3 June 1980, and again on 6 June 1980, a computer communications device failure caused warning messages to sporadically flash in U.S. Air Force command posts around the world that a nuclear attack was taking place.
-* **cause**: The problem was caused by a faulty circuit, a possibility the reporting software hadn’t taken into account. [more](https://www.wikipage.com/en/North_American_Aerospace_Defense_Command#/Cold_War_and_false_alarms)
+* **cause**: The problem was caused by a faulty circuit, a possibility the reporting software hadn’t taken into account. [more](https://www.wikipedia.com/en/North_American_Aerospace_Defense_Command#/Cold_War_and_false_alarms)
 * **cost**: nearly all of humanity
 
 # CIA Gives the Soviets Gas (1982)
@@ -35,7 +35,7 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # The Morris Worm (1988)
 * **disaster**: A program developed by a Cornell University student for what he said was supposed to be a harmless experiment wound up spreading wildly and crashing thousands of computers. It was the first widespread worm attack on the fledgling Internet.
-* **cause**: coding error [more](https://www.wikipage.com/en/Robert_Tappan_Morris#/The_Morris_worm)
+* **cause**: coding error [more](https://www.wikipedia.com/en/Robert_Tappan_Morris#/The_Morris_worm)
 * **cost**: $100 million
 
 # AT&T Lines Go Dead (1990)
@@ -55,12 +55,12 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # JAS 39 Gripen crash (1993)
 * **disaster**: Swedish JAS 39 Gripen fighter aircraft crashed in Sweden.
-* **cause**: The problem was later identified as the same software malfunction in the flight control system as the one in the crash in 1989 and was corrected as late as 1995. [more](https://www.wikipage.com/en/Accidents_and_incidents_involving_the_JAS_39_Gripen)
+* **cause**: The problem was later identified as the same software malfunction in the flight control system as the one in the crash in 1989 and was corrected as late as 1995. [more](https://www.wikipedia.com/en/Accidents_and_incidents_involving_the_JAS_39_Gripen)
 * **cost**: ?
 
 # Scotland RAF Chinook crash (1994)
 * **disaster**: Chinook helicopter of the Royal Air Force crashed.
-* **cause**: The engine software as 'positively dangerous' as it could lead to failure of both engines. [more](https://www.wikipage.com/en/1994_Scotland_RAF_Chinook_crash)
+* **cause**: The engine software as 'positively dangerous' as it could lead to failure of both engines. [more](https://www.wikipedia.com/en/1994_Scotland_RAF_Chinook_crash)
 * **cost**: 29 passengers died
 
 # Ariane Rocket Goes Boom (1996)
@@ -70,7 +70,7 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Smart ship testbed (1997)
 * **disaster**: The ship was equipped with a network of 27 dual 200 MHz Pentium Pro-based machines running Windows NT 4.0 communicating over fiber-optic cable with a Pentium Pro-based server. This network was responsible for running the integrated control center on the bridge, monitoring condition assessment, damage control, machinery control and fuel control, monitoring the engines and navigating the ship. This system was predicted to save $2.8 million per year by reducing the ship's complement by 10%. While on maneuvers off the coast of Cape Charles, Virginia, an error brought down all the machines on the network, causing the ship's propulsion system to fail. Yorktown was "dead in the water" for just 2 hours and 45 minutes.
-* **cause**: a crew member entered a zero into a database field causing an attempted division by zero in the ship's Remote Data Base Manager, resulting in a buffer overflow. [more](https://www.wikipage.com/en/USS_Yorktown_(CG-48))
+* **cause**: a crew member entered a zero into a database field causing an attempted division by zero in the ship's Remote Data Base Manager, resulting in a buffer overflow. [more](https://www.wikipedia.com/en/USS_Yorktown_(CG-48))
 * **cost**: ?
 
 # Mars Climate Crasher (1998)
@@ -100,12 +100,12 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Bitcoin Hack, Mt. Gox (2011)
 * **disaster**: Launched in 2010, Japanese bitcoin exchange, Mt. Gox, was the largest in the world. After being hacked in June, 2011, Mt. Gox stated that they’d lost over 850,000 bitcoins.
-* **cause**: It has weak security solution, leaking database for sale. [more](https://www.wikiwand.com/en/Mt._Gox#/Bankruptcy;_stolen_bitcoin_(2014%E2%80%93ongoing))
+* **cause**: It has weak security solution, leaking database for sale. [more](https://www.wikipedia.com/en/Mt._Gox#/Bankruptcy;_stolen_bitcoin_(2014%E2%80%93ongoing))
 * **cost**: $500 million
 
 # Knight stock market failure (2012)
 * **disaster**: One of the biggest American market makers for stocks struggled to stay afloat after a software bug triggered a big loss in just 30 minutes. The firm’s shares lost 75 percent in two days after the faulty software flooded the market with unintended trades.
-* **cause**: Knight’s trading algorithms reportedly started pushing erratic trades through on nearly 150 different stocks, sending them into spasms. [more](https://www.wikipage.com/en/Knight_Capital_Group)
+* **cause**: Knight’s trading algorithms reportedly started pushing erratic trades through on nearly 150 different stocks, sending them into spasms. [more](https://www.wikipedia.com/en/Knight_Capital_Group)
 * **cost**: $440 million
 
 # Uber’s self-driving car crash (2018)
@@ -115,5 +115,5 @@ Faulty software can be buggy, expensive, embarrassing, destructive and deadly.
 
 # Links
 There are plenty other examples in the world 
-* [List of software bugs](https://www.wikipage.com/en/List_of_software_bugs)
+* [List of software bugs](https://www.wikipedia.com/en/List_of_software_bugs)
 
